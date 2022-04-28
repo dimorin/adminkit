@@ -1,3 +1,11 @@
+## 사용방법
+0. `npm i`
+1. static 폴더에 페이지를 만든다. 페이지는 [starter template](https://adminkit.io/docs/getting-started/quick-start/#starter-template) 을 참고한다.
+2. `npm start` start 폴더 안에 html 파일만 있어도 된다. 파일 변경사항 실시간 반영된다.
+3. `npm run watch` 또는 `npm run build` 를 하게 되면 dist폴더가 만들어지고 dist 폴더 안의 파일들이 static폴더 안에 복사된다.<br>
+`npm run build`를 하게되면 컴파일, 압축, uglify 등을 거친 파일이 static에 복사된다.
+4. static폴더가 최종 배포 폴더가 된다.
+
 <p align="center">
   <a href="https://github.com/adminkit/adminkit"><img src="https://adminkit.io/icons/icon-512x512.png" alt="AdminKit is a free & open-source HTML dashboard & admin template based on Bootstrap 5" width="96"></a>
 </p>
